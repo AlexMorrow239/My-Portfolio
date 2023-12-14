@@ -93,7 +93,7 @@
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) { 
 
     .tags, .home-page h1::before, .home-page h1::after {
         display: none;
@@ -124,6 +124,16 @@
             box-sizing: border-box;
             margin: auto;
             left: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .home-page {
+        .text-zone {
+            h1 {
+                font-size: 45px;
+            }
         }
     }
 }

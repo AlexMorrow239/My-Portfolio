@@ -13,7 +13,7 @@ const Portfolio = () => {
     useEffect(() => {
         setTimeout(() => {
           setLetterClass('text-animate-hover');
-        }, 3000);
+        }, 5000);
     }, []);
         
 

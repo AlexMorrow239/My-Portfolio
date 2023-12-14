@@ -33,7 +33,7 @@ const Contact = () => {
     useEffect(() => {
         setTimeout(() => {
           setLetterClass('text-animate-hover');
-        }, 3000);
+        }, 5000);
     }, []);
     
     return (

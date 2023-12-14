@@ -25,22 +25,22 @@ const Sidebar = () => {
 
     return (
         <div className="nav-bar">
-        <Link className="logo" to="/">
+        <Link className="logo" to="/my-portfolio">
             <img src={LogoS} alt="logo" />
             <img src={LogoSubtitle} className="sub-logo" alt="morrow" />
         </Link>
 
         <nav className={showNav ? 'mobile': ''}>
-            <NavLink onClick={() => setShowNav(false)} end activeclassname="active" to="/">
+            <NavLink onClick={() => setShowNav(false)} end activeclassname="active" to="/my-portfolio">
                 <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
             </NavLink>
-            <NavLink onClick={() => setShowNav(false)} end activeclassname="active" to="/about" className="about-link">
+            <NavLink onClick={() => setShowNav(false)} end activeclassname="active" to="/my-portfolio/about" className="about-link">
                 <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
             </NavLink>
-            <NavLink onClick={() => setShowNav(false)} end activeclassname="active" to="/contact" className="contact-link">
+            <NavLink onClick={() => setShowNav(false)} end activeclassname="active" to="/my-portfolio/contact" className="contact-link">
                 <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
             </NavLink>
-            <NavLink onClick={() => setShowNav(false)} end activeclassname="active" to="/portfolio" className="portfolio-link">
+            <NavLink onClick={() => setShowNav(false)} end activeclassname="active" to="/my-portfolio/portfolio" className="portfolio-link">
                 <FontAwesomeIcon icon={faFolder} color="#4d4d4e" />
             </NavLink>
             <FontAwesomeIcon icon={faClose} color='#ffd700' size='3x' className='close-mobile-icon' onClick={() => setShowNav(false)}/>

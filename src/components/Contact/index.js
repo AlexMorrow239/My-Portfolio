@@ -46,8 +46,7 @@ const Contact = () => {
                         letterClass={letterClass} />
                     </h1>
                     <p>
-                    I am interested in freelance opportunities - especially on ambitious
-                    or large projects. However, if you have any other requests or
+                    I am interested in internship opportunities. If you have any other requests or
                     questions, don't hesitate to contact me using below form either.
                     </p>
                     <div className='contact-form'>
@@ -81,7 +80,7 @@ const Contact = () => {
                     <br />
                     Naples, Florida
                     <br />
-                    <span>alex.morrow239@gmail.com</span>
+                    <a href='mailto:alex.morrow239@gmail.com'>alex.morrow239@gmail.com</a>
                 </div>
                 <div className='map-wrap'>
                     <MapContainer center={[26.1420, -81.7948]} zoom={13}>

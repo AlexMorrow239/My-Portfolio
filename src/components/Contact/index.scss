@@ -104,9 +104,14 @@
     animation: fadeIn 1s 1.5s;
     animation-fill-mode: forwards;
   
-    span {
+    a {
         font-size: 16px;
         color: #ffd700;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
     }
   }
   

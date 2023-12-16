@@ -38,7 +38,7 @@ const About = () => {
                 science and my dedication to continuous learning have led me to this point. 
                 Throughout my academic journey, I've acquired a strong foundation trough projects 
                 with real-world applications. Currently, I go attend the University of Miami pursuing a 
-                dual degree <a rel='noreferrer' href='https://bulletin.miami.edu/undergraduate-academic-programs/arts-sciences/computer-science/computer-science-bs-students-arts-sciences/'className='link'>B.S. in Computer Science</a>,
+                dual degree. <a rel='noreferrer' href='https://bulletin.miami.edu/undergraduate-academic-programs/arts-sciences/computer-science/computer-science-bs-students-arts-sciences/'className='link'>B.S. in Computer Science</a>,
                  <a rel='noreferrer' target='_blank' href ='https://bulletin.miami.edu/undergraduate-academic-programs/arts-sciences/computer-science/data-science-and-ai-bs/' className='link'>
                 B.S. in AI & Data Science</a> and a <a rel='noreferrer' target='_blank' href='https://bulletin.miami.edu/undergraduate-academic-programs/arts-sciences/mathematics/mathematics-minor/' className='link'>Minor in Mathematics</a>
                 </p>

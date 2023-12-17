@@ -13,7 +13,8 @@ import {
     faEnvelope,
     faFolder,
     faBars,
-    faClose
+    faClose,
+    faPaperclip
   } from '@fortawesome/free-solid-svg-icons'
   import { Link, NavLink } from 'react-router-dom'
 import { useState } from 'react'
@@ -42,6 +43,9 @@ const Sidebar = () => {
             </NavLink>
             <NavLink onClick={() => setShowNav(false)} end activeclassname="active" to="/my-portfolio/portfolio" className="portfolio-link">
                 <FontAwesomeIcon icon={faFolder} color="#4d4d4e" />
+            </NavLink>
+            <NavLink onClick={() => setShowNav(false)} end activeclassname="active" to="/my-portfolio/links" className="links-link">
+                <FontAwesomeIcon icon={faPaperclip} color='#4d4d4e' />
             </NavLink>
             <FontAwesomeIcon icon={faClose} color='#ffd700' size='3x' className='close-mobile-icon' onClick={() => setShowNav(false)}/>
         </nav>

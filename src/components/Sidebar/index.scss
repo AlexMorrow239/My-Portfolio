@@ -1,11 +1,11 @@
 .nav-bar {
     background: #181818;
     width: 100px;
-    height: 100%;
+    height: 101%;
     position: absolute;
     top: 0;
     z-index: 3;
-    min-height: 500px;
+    min-height: 566px;
 
 
     .logo {
@@ -99,6 +99,12 @@
             }
         }
 
+        a.links-link {
+            &:after {
+                content: 'LINKS';
+            }
+        }
+
         a.active {
             svg {
                 color: #ffd700;
@@ -138,7 +144,6 @@
 
 @media screen and (max-width: 1200px) {
     .nav-bar {
-        // background: transparent;
         position: initial;
         height: auto;
         width: 100%;

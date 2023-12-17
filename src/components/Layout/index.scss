@@ -40,7 +40,8 @@
 
 .container.about-page,
 .container.contact-page,
-.container.portfolio-page {
+.container.portfolio-page,
+.container.links-page {
   
     h1 {
       font-size: 53px;
@@ -51,6 +52,7 @@
       position: relative;
       margin-bottom: 40px;
       left: -10px;
+      min-width: 233px;
 
       &:before {
         content: '<h1>';

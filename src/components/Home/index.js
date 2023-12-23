@@ -40,7 +40,7 @@ const Home = () => {
                 idx={21}/>
                 </h1>
                 <h2>Aspiring Software Developer</h2>
-                <Link className='flat-button' to='/contact'>CONTACT ME</Link>
+                <Link className='flat-button' to='/my-portfolio/contact'>CONTACT ME</Link>
             </div>
             <div className='portrait-container'>
               <img src={portrait} 

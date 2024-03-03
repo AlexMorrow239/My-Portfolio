@@ -28,7 +28,7 @@ const Portfolio = () => {
             </h1>
             <div className='images-container'>
                 {portfolioData.portfolio.map((port, index) => (
-                    <PortfolioItem key={index} {...port} />
+                    <PortfolioItem key={index} id={index} {...port} />
                 ))}
             </div>
         </div>

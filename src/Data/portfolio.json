@@ -4,13 +4,15 @@
       "cover": "/my-portfolio/portfolio/0/page-rank.png",
       "title": "PageRank Algorithm",
       "description": "OOP, Data Structures, Sorting & Searching Algorithms",
-      "url": "https://github.com/AlexMorrow239/google-algorithm"
+      "url": "https://github.com/AlexMorrow239/google-algorithm",
+      "id": 0
     },
     {
       "cover": "/my-portfolio/portfolio/0/banknote_classification.png",
       "title": "Banknote Classification",
       "description": "Numpy, Pandas, Matplotlib, Data analysis",
-      "url": "https://github.com/AlexMorrow239/CSC315/proj2"
+      "url": "https://github.com/AlexMorrow239/CSC315/blob/main/proj2/proj2.md",
+      "id": 1
     }
   ]
 }

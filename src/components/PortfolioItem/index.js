@@ -1,9 +1,9 @@
 import React from 'react';
 import './index.scss';
 
-const PortfolioItem = ({ cover, title, description, url }) => {
+const PortfolioItem = ({ cover, title, description, url, id }) => {
   return (
-    <div className='image-box'>
+    <div className='image-box' id={`portfolio-item-${id}`}>
       <img src={cover} alt='portfolio' className='portfolio-image' />
       <div className='content'>
         <p className='title'>{title}</p>

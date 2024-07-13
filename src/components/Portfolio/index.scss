@@ -19,6 +19,11 @@
 
   .image-box {
     background-color: #fff;
+    flex: 1 0 auto; /* Adjust this line */
+    min-width: 250px; /* Set a minimum width for each item */
+    max-width: calc(
+      33.333% - 15px
+    ); /* Adjust max-width for 3 items per row, accounting for gap */
     img {
       width: 100%;
       height: 100%;

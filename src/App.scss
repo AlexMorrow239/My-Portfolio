@@ -1,33 +1,52 @@
 $primary-color: #ffd700;
 
-@import 'animate.css';
-@import '~loaders.css/src/animations/ball-scale-ripple-multiple.scss';
+@import "animate.css";
+@import "~loaders.css/src/animations/ball-scale-ripple-multiple.scss";
 @font-face {
-  font-family: 'Helvetica Neue';
-  src: url('./assets/fonts/helvetica-neu.ttf') format('ttf');
+  font-family: "Helvetica Neue";
+  src: url("./assets/fonts/helvetica-neu.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'La Belle Aurore';
-  src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2'),
-    url('./assets/fonts/LaBelleAurore.woff') format('woff');
+  font-family: "La Belle Aurore";
+  src: url("./assets/fonts/LaBelleAurore.woff2") format("woff2"),
+    url("./assets/fonts/LaBelleAurore.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Coolvetica';
-  src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2'),
-    url('./assets/fonts/CoolveticaRg-Regular.woff') format('woff');
+  font-family: "Coolvetica";
+  src: url("./assets/fonts/CoolveticaRg-Regular.woff2") format("woff2"),
+    url("./assets/fonts/CoolveticaRg-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+}
+
+/* Override Bootstrap Button Styles */
+.btn.btn-primary {
+  background-color: $primary-color; /* Change to your desired background color */
+  border-color: $primary-color; /* Change to your desired border color */
+  color: #fff; /* Change text color if needed */
+
+  &:hover {
+    background-color: #c9ab00; /* Darker shade for hover state */
+    border-color: #c9ab00;
+  }
+
+  &:focus,
+  &:active {
+    background-color: #a08800; /* Even darker shade for active/focus state */
+    border-color: #a08800;
+    box-shadow: 0 0 0 0.2rem rgba(154, 139, 0, 0.5); /* Adjust the box-shadow color to match */
+  }
 }
 
 input,
 textarea {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
 }
 
 .loader-hidden {
@@ -47,6 +66,3 @@ textarea {
   animation: fadeOut 1s 1s;
   animation-fill-mode: forwards;
 }
-
-
-

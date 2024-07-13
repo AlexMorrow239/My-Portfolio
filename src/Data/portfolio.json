@@ -8,11 +8,25 @@
       "id": 0
     },
     {
-      "cover": "/my-portfolio/portfolio/0/banknote_classification.png",
-      "title": "Banknote Classification",
-      "description": "Numpy, Pandas, Matplotlib, Data analysis",
-      "url": "https://github.com/AlexMorrow239/CSC315/blob/main/proj2/proj2.md",
+      "cover": "/my-portfolio/portfolio/0/python_logo.png",
+      "title": "Python Blog",
+      "description": "Numpy, Pandas, Matplotlib, Data analysis, Data visualization, Recursion",
+      "url": "https://github.com/AlexMorrow239/CSC315/",
       "id": 1
+    },
+    {
+      "cover": "/my-portfolio/portfolio/0/capital_punishment.png",
+      "title": "Capital Punishment & Inference",
+      "description": "Statistical analysis evaluating efficacy of capital punishment",
+      "url": "https://www.linkedin.com/in/alex-morrow-umiami/details/projects/1720903966732/single-media-viewer/?profileId=ACoAAElZOMIBwjaKNdEjSLqRWnwpmIKmcqrhNs4",
+      "id": 2
+    },
+    {
+      "cover": "/my-portfolio/portfolio/0/blog_app.png",
+      "title": "Cape Chronicles Blog",
+      "description": "MongoDB, Express, React, Node.js, RESTful API, CRUD, JWT authentication, Redux",
+      "url": "https://cape-chronicles-fcf5274bde23.herokuapp.com/home",
+      "id": 3
     }
   ]
 }

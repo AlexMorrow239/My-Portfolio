@@ -1,24 +1,26 @@
-import { Routes, Route } from 'react-router-dom';
-import './App.scss';
-import Layout from './components/Layout';
-import Home from './components/Home';
-import About from './components/About';
-import Contact from './components/Contact';
-import Portfolio from './components/Portfolio';
-import Links from './components/Links';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.min.js";
+import "bootstrap/dist/js/bootstrap.bundle.min";
+
+import { Routes, Route } from "react-router-dom";
+import "./App.scss";
+import Layout from "./components/Layout";
+import Home from "./components/Home";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Portfolio from "./components/Portfolio";
 
 function App() {
   return (
     <>
-    <Routes>
-      <Route path='/my-portfolio' element={<Layout />}>
-        <Route index element={<Home />} />
-        <Route path="about" element={<About />} />
-        <Route path="contact" element={<Contact />} />
-        <Route path='portfolio' element={<Portfolio />} />
-        <Route path='links' element={<Links />} />
-      </Route>
-    </Routes>
+      <Routes>
+        <Route path="/my-portfolio" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="portfolio" element={<Portfolio />} />
+        </Route>
+      </Routes>
     </>
   );
 }

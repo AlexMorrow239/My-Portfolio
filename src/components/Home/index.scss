@@ -39,9 +39,9 @@
       opacity: 0.6;
     }
     img {
-      width: 60px;
+      object-fit: contain;
+      max-height: 60px;
       margin-left: 5px;
-      height: auto;
       animation: rotateIn 2s linear both;
       animation-delay: 1.4s;
     }

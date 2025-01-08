@@ -1,0 +1,41 @@
+footer {
+  display: none;
+  background-color: #181818;
+  margin-top: 100px;
+
+  .item {
+    padding: 0 0.5rem;
+    font-size: 1.25rem;
+  }
+
+  .nav-link:hover {
+    transition: all 0.3s ease-in-out;
+    color: #000 !important;
+  }
+
+  a {
+    color: #000;
+  }
+
+  a:hover {
+    transition: all 0.3s ease-in-out;
+  }
+
+  .linkedin:hover {
+    color: #0077b5;
+  }
+
+  .github:hover {
+    color: #800080;
+  }
+
+  .email:hover {
+    color: #dbc100;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  footer {
+    display: block;
+  }
+}

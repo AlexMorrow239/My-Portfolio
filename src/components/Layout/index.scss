@@ -1,8 +1,9 @@
 .page {
   width: 100%;
   position: absolute;
-  background: #022c43;
   min-height: 101%;
+  background: #022c43;
+  padding-top: 40px;
 }
 
 .top-tags {
@@ -137,9 +138,11 @@
   }
 }
 
+// Screen smaller than 1200px
 @media screen and (max-width: 1200px) {
   .page {
     position: absolute;
+    padding-top: 60px;
   }
 
   .container {
